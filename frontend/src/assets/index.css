@@ -1,0 +1,19 @@
+body{
+   margin: 0;
+}
+#root{
+   /* background: linear-gradient(287deg, #43BFC9 0%, #F9F871 122.31%); */
+   background-color: #e2e5ea;
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   height: 100vh;
+   margin: 0;
+}
+
+:root{
+   font-family: 'Red Hat Display', sans-serif;
+   font-family: 'Roboto', sans-serif;
+}
+a{
+   text-decoration: none;
+   color: #000;
+}
