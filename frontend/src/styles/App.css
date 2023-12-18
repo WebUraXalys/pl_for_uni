@@ -1,0 +1,127 @@
+.page{
+   height: inherit;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+}
+.box{
+   width: 600px;
+   background-color: #fff;
+   border-radius: 25px;
+   margin: auto;
+   padding: 3rem;
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .15);
+   margin-bottom: 2rem;
+   
+}
+.header{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: initial;
+   align-items: center;
+}
+.header_img{
+   margin: auto;
+   width: 270px;
+}
+.header_title{
+   font-size: 29px;
+   text-align: center;
+}
+.button_link_oidc{
+   display: block;
+   width: 100%;
+   border: solid 2px #dee2e6;
+   /* border-radius: 5px; */
+   padding: 0.375rem 0;
+   text-align: center;
+   font-weight: 400;
+       vertical-align: middle;
+       /* padding: 0.375rem 0.75rem; */
+       font-size: .9375rem;
+       line-height: 1.5;
+       border-radius: 0.25rem;
+}
+.btn_img{
+   vertical-align: middle;
+   border-style: none;
+}
+
+/* Quiz */
+.box_select_course {
+   background-color: #fff;
+   /* Білий фон як у .box */
+   border-radius: 25px;
+   /* Заокруглені краї як у .box */
+   margin: 1rem auto;
+   /* Вирівнювання та відступи */
+   padding: 1rem;
+   /* Внутрішні відступи */
+   /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .15); */
+   /* Тінь як у .box */
+}
+
+.box_select_course label {
+   display: block;
+   /* Робить label блоковим елементом */
+   margin-bottom: 0.5rem;
+   /* Відступ знизу для мітки */
+   font-size: 1rem;
+   /* Розмір шрифту */
+}
+
+.box_select_course select {
+   width: 100%;
+   /* Ширина на всю доступну ширину */
+   padding: 0.5rem;
+   /* Внутрішні відступи */
+   border-radius: 5px;
+   /* Заокруглені краї */
+   border: 1px solid #ddd;
+   /* Тонка рамка */
+   font-size: 1rem;
+   /* Розмір шрифту */
+}
+
+.button {
+   margin: auto;
+   border-radius: 20px;
+   display: flex;
+   font-size: 20px;
+   background-color: #021b67;
+   color: white;
+   padding: 0.8rem 1.5rem;
+   border: none;
+   cursor: pointer;
+   margin-top: 1rem;
+}
+
+.button_quiz  { /* button[type="submit"] */
+   background-color: #021b67;
+   /* Колір кнопки */
+   color: white;
+   /* Колір тексту */
+   padding: 0.5rem 1rem;
+   /* Внутрішні відступи */
+   border: none;
+   /* Відсутність рамки */
+   border-radius: 5px;
+   /* Заокруглені краї */
+   cursor: pointer;
+   /* Курсор у вигляді покажчика */
+   font-size: 1rem;
+   /* Розмір шрифту */
+   margin-top: 1rem;
+   /* Відступ зверху */
+}
+
+button[type="submit"]:hover {
+   background-color: #36a2b2;
+   /* Темніший колір при наведенні */
+}
+
+/* assessment */
+.slider_box {
+   margin: auto;
+   width: fit-content;
+}
